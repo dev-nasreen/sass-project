@@ -52,11 +52,11 @@
             width: 66.66%;
             background-color: $foo_bottom_two_bg;
             border-bottom-right-radius: 10px;
-            button{
-                padding: 10px 20px;
-                color: #fff;
-                background-color: green;
-                border-radius: 5px;
+            .f-btn{
+                padding: $btn_padding;
+                color:$btn_text_color;
+                background-color: $btn_bg;
+                border-radius: 10px;
             }
            
         }
